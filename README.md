@@ -26,7 +26,7 @@ Learn-SDLC is an online platform where anyone can learn about what SDLC is, and 
      4. Testing the knowledge is the best way to retain it for long term, and it also servers as a measure to check knowledge actually gained. This section uses the Quizzlet.com app, on which user can take quizs, test or play games like Scatters, Flashcards and Space game.
    
     User studies each concept of SDLC starting from SDLC itself then progressing in a systematic order - Planning, Analysis, Design, Implementation and then System Support and Security. For each of these concepts, the above layed out format is followed. Starting with introduction, then explaning the topics in detail and then giving some relevant examples before testing how much user was able to learn.
-  3. At last, provide user with quick link to some of the most relevant and useful resources on the internet to study more about SDLC. Users are also provided with a separate page for fun games to test their knowledge and it also helps to improve the learning skills.
+   3. At last, provide user with quick link to some of the most relevant and useful resources on the internet to study more about SDLC. Users are also provided with a separate page for fun games to test their knowledge and it also helps to improve the learning skills.
 
 # Designing
 
