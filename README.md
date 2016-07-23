@@ -20,10 +20,11 @@ Learn-SDLC is an online platform where anyone can learn about what SDLC is, and 
 ### How it works 
    1. Main home page of website describes the way the platform works and provide user with links to various important sections of the website like Study Area, Games, and About page.
    2. The learning process starts from the Study Area. Following is the working of study area, or the real teaching concept of the Learn-SDLC website. Various parts of the Study Area and there purpose:
-     A. Introduction: Gives a brief introduction of the topic along with Definition breakdown to make the concept more clear.
-     B. Explanation: This section explains the whole concept with proper and detailed explanation. It make it less boring, more emphasis is placed on using visuals and graphics where ever possible.
-     C. Examples makes it easier to understand the real world application of the concept learned. This section contains various examples based on real world usage of SDLC
-     D. Testing the knowledge is the best way to retain it for long term, and it also servers as a measure to check knowledge actually gained. This section uses the Quizzlet.com app, on which user can take quizs, test or play games like Scatters, Flashcards and Space game.
+     1. Introduction: Gives a brief introduction of the topic along with Definition breakdown to make the concept more clear.
+     2. Explanation: This section explains the whole concept with proper and detailed explanation. It make it less boring, more emphasis is placed on using visuals and graphics where ever possible.
+     3. Examples makes it easier to understand the real world application of the concept learned. This section contains various examples based on real world usage of SDLC
+     4. Testing the knowledge is the best way to retain it for long term, and it also servers as a measure to check knowledge actually gained. This section uses the Quizzlet.com app, on which user can take quizs, test or play games like Scatters, Flashcards and Space game.
+   
     User studies each concept of SDLC starting from SDLC itself then progressing in a systematic order - Planning, Analysis, Design, Implementation and then System Support and Security. For each of these concepts, the above layed out format is followed. Starting with introduction, then explaning the topics in detail and then giving some relevant examples before testing how much user was able to learn.
   3. At last, provide user with quick link to some of the most relevant and useful resources on the internet to study more about SDLC. Users are also provided with a separate page for fun games to test their knowledge and it also helps to improve the learning skills.
 
@@ -40,8 +41,8 @@ Dimensions supported - At least 720 px wide screen, and best viewed at 1330 px w
 
 # Developing
 
-###Description of the development process will be updated soon.
+####Description of the development process will be updated soon.
 
-###Thank You.
+####Thank You.
 
 ## p-k
