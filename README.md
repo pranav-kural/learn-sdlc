@@ -40,8 +40,34 @@ Due to the limitation of developing the whole platform in just 2 weeks, it was d
 Dimensions supported - At least 720 px wide screen, and best viewed at 1330 px wide screen.
 
 # Developing
+From the starting it was clear to me that it needs to be something like a single page application, fast and fluid, in form of a full package for learning SDLC. Since all parts of the website are connected to each other, therefore it was mandatory to present the website as a whole, rather than individual parts. Therefore, the team decided to go with the plan for developing a Single Page Application, and I recommended AngularJS for it, because I love it :) Angular's fast performance, nested-view features for enhanched routing controls and the angular material design, were the main reason to choose AngularJS. 
 
-####Description of the development process will be updated soon.
+### Structure
+
+           Index
+             |
+             |
+         Main view 
+               |------- Home
+               |------ Study Area ---------Nested view
+               |------ Games                    |---------- SDLC
+               |------ About                    |---------- Planning
+               |------ Devs                     |---------- Analysis
+                                                |---------- Design
+                                                |---------- Implementation
+                                                |---------- Support & Security
+
+### Development
+   1. Started with a basic structure. Made the index.html, containing the basic model of the website as we designed it. It contained the Main view.
+   2. The main view handled the display of first-level pages of the website, i.e., Home, Study Area, Games, About and Devs. While the nested view, inside the Study Area page, showed various views depending on the sub-topic selected to study at that time, which may be SDLC, Planning, Analysis, Design, Implementation or Support and security.
+   3. There were two options in front of us when deciding on how to inject data into the views. First option was to simply create separate template files for each of the stages and then inject those templates depending on the route selected. Second option was to have only one template file (with a general structure of that web page), and inject data into it through the controller. The controller injects value through scope variables, and the value for those scope variables keeps changing dynamically with the change in controller. It still depends on routing, as which controller is selected depends on route.
+   4. The second option was more faster, with much less redundant code and led to more efficient application performance. But the problem was that it was much more complicated to develop and needed more time and work. Since, in the whole team of 5 members, only I knew angularJS, and other were at most comfortable with HTML, not even JavaScript, I had to choose something which would not only enable us to make SPA using angular, but also enable other members to easily contribute their bit to the website. Therefore, we chose to go with the first option.
+   5. First option was really easy to work with. Each stage has separate HTML file, with simple HTML and some angular code. Therefore, any member, regardless of experience or knowledge of JavaScript or angular could easly add their content or edit the files based on needs. This was also suitable considering our deadline, since it involved creation of duplicate files, and now the work could be divided among us evenly rather than me doing all the developement.
+   6. I created the whole website first, with simple and basic classes from the bootstrap framework and Angular Material Design framework. Then added materialize CSS to add more color and creativity.
+   7. Then created the final documented verison of the code files, including all the HTML, JS and CSS files.
+   8. Then created the documentation file, containing extensive details of the whole project. Done :)
+   
+This project really taught me a lot of things. Team work, planning and managing a project are a few of them. We did work really hard for it, and hope you'll see the hard work.
 
 ####Thank You.
 
