@@ -1,5 +1,5 @@
 # Learn-SDLC
-An online platform to learn Systems Development Life Cycle in a fun and interesting way. 
+An online platform to learn Systems Development Life Cycle in a fun and interesting way. Link to the website: http://gc200333253.computerstudi.es/teamNoClue/ 
 
 This started out as a project from my System Analysis class, geared towards practicing SCRUM software developement methodology and learn more about the System Development Life Cycle. My team's name was 'TeamNoClue', cause we were bad at naming :p We had five developers in team, and all the roles were divided among us. For info on team members and their roles please go here: 
 My role was that of Lead Developer and Designer. My task was to plan, design and develop the whole platform, inside which, individual components developed by other team members will be integrated to come up with a complete learning platform at end. As heavy as it sounds.
