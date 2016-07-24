@@ -1,0 +1,162 @@
+<div ng-cloak>
+    <md-content>
+        <md-tabs md-dynamic-height md-border-bottom>
+            <md-tab label="Introduction">
+                <md-content class="md-padding jumbotron">
+                    <section id="intro_design">
+
+                        <header role="banner">
+
+                            <h2 class="md-display-2 page-header">System Design</h2>
+
+                        </header>
+                        <article role="article">
+
+                            <p>
+                                <strong>Systems design</strong> is the process of defining the architecture, components, modules,
+                                interfaces, and data for a system to satisfy specified requirements. Systems design
+                                could be seen as the application of systems theory to product development. There is some
+                                overlap with the disciplines of systems analysis, systems architecture and systems
+                                engineering. It is meant to satisfy specific needs and requirements of a business or
+                                organization through the engineering of a coherent and well-running system.
+                            </p>
+
+                        </article>
+                        <footer role="contentinfo">
+
+                            <!-- fill in with a short summary of the current topic -->
+
+                        </footer>
+
+                    </section>
+                </md-content>
+            </md-tab>
+            <md-tab label="Explanation">
+                <md-content class="md-padding jumbotron">
+                    <section id="explain_design">
+
+                        <header role="banner">
+
+                            <h2 class="md-display-2 page-header">A Li'l More on System Design:</h2>
+
+                        </header>
+                        <article role="article">
+
+                            <p>
+                                <strong>System design</strong> implies a systematic approach to the design of a system. It may take a
+                                bottom-up or top-down approach, but either way the process is systematic wherein it
+                                takes into account all related variables of the system that needs to be created—from the
+                                architecture, to the required hardware and software, right down to the data and how it
+                                travels and transforms throughout its travel through the system. Systems design then
+                                overlaps with systems analysis, systems engineering and systems architecture.<br><br>
+
+                                The systems design approach first appeared right before World War II, when engineers
+                                were trying to solve complex control and communications problems. They needed to be able
+                                to standardize their work into a formal discipline with proper methods, especially for
+                                new fields like information theory, operations research and computer science in general.
+                            </p>
+
+                        </article>
+                        <footer role="contentinfo">
+
+                            <!-- fill in with a short summary of the current topic -->
+
+                        </footer>
+
+                    </section>
+                </md-content>
+            </md-tab>
+            <md-tab label="Example">
+                <md-content class="md-padding jumbotron">
+                    <section id="example_design">
+
+                        <header role="banner">
+
+                            <h3 class="md-display-2 page-header">Here are some examples, that show the usage of SDLC in
+                                real world.</h3>
+
+                        </header>
+                        <article role="article">
+
+                            <div class="container">
+                                <div class="well">
+                                    <img class="ui fluid image" src="http://gc200333253.computerstudi.es/teamNoClue/images/design/design_example01.jpg">
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                <div class="well">
+                                    <img class="ui fluid image"
+                                         src="http://gc200333253.computerstudi.es/teamNoClue/images/design/design_example02.jpg">
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                <div class="well">
+                                    <img class="ui fluid image" src="http://gc200333253.computerstudi.es/teamNoClue/images/design/design_example03.jpg">
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                <div class="well">
+                                    <img class="ui fluid image" src="http://gc200333253.computerstudi.es/teamNoClue/images/design/design_example04.jpg">
+                                </div>
+                            </div>
+
+                        </article>
+                        <footer role="contentinfo">
+
+                            <!-- fill in with a short summary of the current topic -->
+
+                        </footer>
+
+                    </section>
+                </md-content>
+            </md-tab>
+            <md-tab label="Test it!">
+                <md-content class="md-padding jumbotron">
+                    <section id="test_design">
+
+                        <header role="banner">
+
+                            <h2 class="md-display-2 page-header">Let's Test what you've learnt</h2>
+
+                        </header>
+                        <article role="article">
+
+                            <iframe src="https://quizlet.com/142682366/speller/embed" height="600" width="100%"
+                                    style="border:0"></iframe>
+
+                        </article>
+                        <footer role="contentinfo">
+
+                            <p>Well Done! now let's get started with the <strong>System Implementation</strong>.</p>
+
+                        </footer>
+
+                    </section>
+                </md-content>
+            </md-tab>
+        </md-tabs>
+    </md-content>
+
+
+    <div class="ui inverted segment">
+
+        <div class="ui inverted three item secondary menu">
+
+            <a class="item" ui-sref="{{lastTopicAddr}}" title="{{lastTopic}}">
+                <span class="fa fa-chevron-left"></span>
+            </a>
+
+            <a class="item active"
+               ng-class="{ active: $state.includes('study'), red: $state.includes('study.sdlc'), orange: $state.includes('study.planning'), 'yellow darken-1': $state.includes('study.analysis'), blue: $state.includes('study.design'), green: $state.includes('study.implementation'), teal: $state.includes('study.support') }">
+                System {{topic}}
+            </a>
+
+            <a class="item" ui-sref="{{nextTopicAddr}}" title="{{nextTopic}}">
+                <span class="fa fa-chevron-right"></span>
+            </a>
+        </div>
+    </div>
+</div>

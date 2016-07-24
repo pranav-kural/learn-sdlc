@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html ng-app="myapp" class="ng-cloak" ng-cloack>
+
+<head>
+    <!-- Meta information -->
+    <meta charset="UTF-8">
+    <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A fun based platform to learn SDLC and the steps involved in it.">
+    <meta name="keywords"
+          content="sdlc, system, development, fife, cycyle, learn, learn sdlc, learn sdlc fun, system planning, analysis, design, implementation, support and security">
+    <link rel="canonical" href="http://gc200333253.computerstudi.es/sdlc">
+    <link rel="author" href="https://plus.google.com/105996732675503123074">
+
+    <!-- Facebook meta linking -->
+    <meta property="og:url" content="{{pageUrl}}">
+    <meta property="og:image" content="{{imageUrl}}">
+    <meta property="og:description"
+          content="A fun interactive platform to learn System Development Life Cycle techniques and practise your skills">
+    <meta property="og:title" content="The fun way to learn SDLC.">
+    <meta property="og:site_name" content="SDLC - TeamNoClue">
+    <meta property="og:type" content="website"/>
+
+    <!-- Linking Stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/semantic.min.css">
+    <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
+    <link rel="stylesheet" href="node_modules/angular-material/angular-material.min.css">
+
+    <!-- Google font imports -->
+    <link href='https://fonts.googleapis.com/css?family=Lobster|Rock+Salt|Philosopher|Playfair+Display' rel='stylesheet'
+          type='text/css'>
+
+    <!-- Web page's original stylesheet -->
+    <link rel="stylesheet" href="css/myStyles.css">
+
+    <!--Title of the web page -->
+    <title>System Development Life Cycle</title>
+
+</head>
+
+<body role="document">
+
+<div id="indexCnt" class="container">
+
+<!-- header containing the main links to sdlc, planning, analysis, design, implementation and support & security sections -->
+<header role="banner">
+
+    <!-- Main Page header -->
+    <h1 class="page-header"><span id="sdlcTitle">System Development Life Cycle</span></h1>
+    <!-- Main nav bar -->
+    <nav id="mainNav" role="navigation" class="ui raised five item menu">
+
+        <a class="item col-lg-2" id="homeTab" ui-sref="home" ng-class="{ 'active': $state.includes('home') }">Home</a>
+
+        <a class="item col-lg-2" id="studyTab" ui-sref="study" ng-class="{ 'active': $state.includes('study') }">StudyArea</a>
+
+        <a class="item col-lg-2" id="gamesTab" ui-sref="games" ng-class="{ 'active': $state.includes('games') }">Games</a>
+
+        <a class="item col-lg-2" id="aboutTab" ui-sref="about" ng-class="{ 'active': $state.includes('about') }">About</a>
+
+        <a class="item col-lg-2" id="devsTab" ui-sref="devs" ng-class="{ 'active': $state.includes('devs') }">Devs</a>
+
+    </nav>
+</header>
+
+<!-- Main content of the Web site. Holder for the main view of the top parent state. -->
+<main role="main">
+
+    <div ui-view class="ng-cloak ng-enter ng-enter-active ng-leave ng-leave-active" ng-cloak></div>
+
+</main>
+
+<!-- Footer section of the document -->
+<footer role="contentinfo" class="page-footer red">
+    <div class="container-fluid">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">TeamNoClue</h5>
+                    <p class="grey-text text-lighten-4">System Analysis - Assignment 1 Activity project.</p>
+                </div>
+                <!-- Angular State Information : for testing purposes -->
+                <!--    <div class="col l4 offset-l2 s12">-->
+                <!--        <h5 class="white-text">Angular State Info</h5>-->
+                <!--        <ul>-->
+                <!--            <li>State Name ($state): <span>{{$state.current.name}}</span></li>-->
+                <!--            <li>State Params ($stateParams): <span>{{$stateParams}}</span></li>-->
+                <!--            <li>State Location ($state full url): <span>{{ $state.$current.url.source }}</span></li>-->
+                <!--        </ul>-->
+                <!--    </div>-->
+                <!--          -->
+            </div>
+    </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <span class="fa fa-copyright"></span> 2016 TeamNoClue
+                <a class="grey-text text-lighten-4 right" href="#!">Made with <span class="fa fa-heart"></span> by TeamNoClue</a>
+            </div>
+        </div>
+
+    </footer>
+
+    </div>
+
+<!-- Linking JQuery -->
+<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+
+<!-- JS for stylizing needs -->
+<script src="js/style/bootstrap.min.js"></script>
+<script src="js/style/semantic.min.js"></script>
+<script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+
+<!-- Angular -->
+<script src="js/angular.min.js"></script>
+<!-- UI-Router -->
+<script src="js/angular-ui-router.min.js"></script>
+
+<!-- Angular Material Dependencies -->
+<script src="node_modules/angular-animate/angular-animate.min.js"></script>
+<script src="node_modules/angular-aria/angular-aria.min.js"></script>
+
+<!-- Angular Material Javascript now available via Google CDN; version 0.9.4 used here -->
+<script src="node_modules/angular-material/angular-material.min.js"></script>
+
+<!-- App Script -->
+<script src="app.js"></script>
+
+</body>
+
+</html>

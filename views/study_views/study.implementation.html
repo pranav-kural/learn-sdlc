@@ -1,0 +1,184 @@
+<div ng-cloak>
+    <md-content>
+        <md-tabs md-dynamic-height md-border-bottom>
+            <md-tab label="Introduction">
+                <md-content class="md-padding jumbotron">
+                    <section id="intro_implementation">
+
+                        <header role="banner">
+
+                            <h2 class="md-display-2 page-header">System Implementation</h2>
+
+                        </header>
+                        <article role="article">
+
+                            <p>
+                                The <strong>System Implementation</strong> process in terms of construction and delivery phases of the
+                                life cycle. Systems implementation is the construction of the new system and the
+                                delivery of that system into production (that is, the day-to-day business or
+                                organization operation). System Implementation uses the structure created during
+                                architectural design and the results of system analysis to construct system elements
+                                that meet the stakeholder requirements and system requirements developed in the early
+                                life cycle phases. These system elements are then integrated to form intermediate
+                                aggregates and finally the complete system-of-interest (SoI).
+                            </p>
+
+                        </article>
+                        <footer role="contentinfo">
+
+                            <!-- fill in with a short summary of the current topic -->
+
+                        </footer>
+
+                    </section>
+                </md-content>
+            </md-tab>
+            <md-tab label="Explanation">
+                <md-content class="md-padding jumbotron">
+                    <section id="explain_implementation">
+
+                        <header role="banner">
+
+                            <h2 class="md-display-2 page-header">A Li'l More on System Implementation:</h2>
+
+                        </header>
+                        <article role="article">
+
+                            <p>
+                                <strong>System Implementation</strong> is the process that actually yields the lowest-level system elements in
+                                the system hierarchy (system breakdown structure). System elements are made, bought, or
+                                reused. Production involves the hardware fabrication processes of forming, removing,
+                                joining, and finishing, the software realization processes of coding and testing, or the
+                                operational procedures development processes for operators' roles. If implementation
+                                involves a production process, a manufacturing system which uses the established
+                                technical and management processes may be required.
+                            </p>
+                            <p>
+                                The purpose of the implementation process is to design and create (or fabricate) a
+                                system element conforming to that element’s design properties and/or requirements. The
+                                element is constructed employing appropriate technologies and industry practices. This
+                                process bridges the system definition processes and the integration process. Figure 1
+                                portrays how the outputs of system definition relate to system implementation, which
+                                produces the implemented (system) elements required to produce aggregates and the SoI.
+                            </p>
+                            <p>
+                                During the implementation process, engineers apply the design properties and/or
+                                requirements allocated to a system element to design and produce a detailed description.
+                                They then fabricate, code, or build each individual element using specified materials,
+                                processes, physical or logical arrangements, standards, technologies, and/or information
+                                flows outlined in detailed descriptions (drawings or other design documentation). A
+                                system element will be verified against the detailed description of properties and
+                                validated against its requirements.
+                            </p>
+
+                        </article>
+                        <footer role="contentinfo">
+
+                            <!-- fill in with a short summary of the current topic -->
+
+                        </footer>
+
+                    </section>
+                </md-content>
+            </md-tab>
+            <md-tab label="Example">
+                <md-content class="md-padding jumbotron">
+                    <section id="example_implementation">
+
+                        <header role="banner">
+
+                            <h3 class="md-display-2 page-header">Here are some examples, that show the usage of System Implementation in real world.</h3>
+
+                        </header>
+                        <article role="article">
+
+                            <div class="container">
+                                <div class="well">
+                                    <img class="ui fluid image" src="http://gc200333253.computerstudi.es/teamNoClue/images/implementation/implementation_example01.png">
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                <div class="well">
+                                    <img class="ui fluid image"
+                                         src="http://gc200333253.computerstudi.es/teamNoClue/images/sdlc/sdlc_example2.jpg">
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                <div class="well">
+                                    <img class="ui fluid image" src="http://gc200333253.computerstudi.es/teamNoClue/images/implementation/implementation_example02.jpg">
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                <div class="well">
+                                    <img class="ui fluid image" src="http://gc200333253.computerstudi.es/teamNoClue/images/implementation/implementation_example03.jpg">
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                <div class="well">
+                                    <figure>
+                                        <figcaption>RoadMap of System Implementation</figcaption>
+                                        <img class="ui fluid image" src="http://gc200333253.computerstudi.es/teamNoClue/images/implementation/implementation_roadmap.gif">
+                                    </figure>
+                                </div>
+                            </div>
+
+                        </article>
+                        <footer role="contentinfo">
+
+                            <!-- fill in with a short summary of the current topic -->
+
+                        </footer>
+
+                    </section>
+                </md-content>
+            </md-tab>
+            <md-tab label="Test it!">
+                <md-content class="md-padding jumbotron">
+                    <section id="test_implementation">
+
+                        <header role="banner">
+
+                            <h2 class="md-display-2 page-header">Let's Test what you've learnt</h2>
+
+                        </header>
+                        <article role="article">
+
+                            <iframe src="https://quizlet.com/142810946/test/embed" height="600" width="100%" style="border:0"></iframe>
+
+                        </article>
+                        <footer role="contentinfo">
+
+                            <p>Well done! Let's get started with the Support & Security Now</p>
+
+                        </footer>
+
+                    </section>
+                </md-content>
+            </md-tab>
+        </md-tabs>
+    </md-content>
+
+
+    <div class="ui inverted segment">
+
+        <div class="ui inverted three item secondary menu">
+
+            <a class="item" ui-sref="{{lastTopicAddr}}" title="{{lastTopic}}">
+                <span class="fa fa-chevron-left"></span>
+            </a>
+
+            <a class="item active"
+               ng-class="{ active: $state.includes('study'), red: $state.includes('study.sdlc'), orange: $state.includes('study.planning'), 'yellow darken-1': $state.includes('study.analysis'), blue: $state.includes('study.design'), green: $state.includes('study.implementation'), teal: $state.includes('study.support') }">
+                System {{topic}}
+            </a>
+
+            <a class="item" ui-sref="{{nextTopicAddr}}" title="{{nextTopic}}">
+                <span class="fa fa-chevron-right"></span>
+            </a>
+        </div>
+    </div>
+</div>

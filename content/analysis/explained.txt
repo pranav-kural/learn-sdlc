@@ -1,0 +1,16 @@
+The terms analysis and synthesis stem from Greek, meaning "to take apart" and "to put together," respectively. These terms are used in many scientific disciplines, from mathematics and logic to economics and psychology, to denote similar investigative procedures. Analysis is defined as "the procedure by which we break down an intellectual or substantial whole into parts," while synthesis means "the procedure by which we combine separate elements or components in order to form a coherent whole." [3] Systems analysis researchers apply methodology to the systems involved, forming an overall picture. System analysis is used in every field where something is developed. Analysis can also be a series of components that perform organic functions together, such as system engineering. Systems engineering is an interdisciplinary field of engineering that focuses on how complex engineering projects should be designed and managed.
+
+ There are a number of different approaches to system analysis. When a computer-based information system is developed, systems analysis (according to the Waterfall model) would constitute the following steps:
+
+1The development of a feasibility study: determining whether a project is economically, socially, technologically and organizationally feasible
+2Fact-finding measures, designed to ascertain the requirements of the system's end-users (typically involving interviews, questionnaires, or visual observations of work on the existing system)
+3Gauging how the end-users would operate the system (in terms of general experience in using computer hardware or software), what the system would be used for and so on
+Another view outlines a phased approach to the process. This approach breaks systems analysis into 5 phases:
+
+1Scope Definition: denoting an instrument for observing, viewing, or examining
+2Problem analysis: analyzing the problem that arises
+3Requirements analysis: determining the conditions that need to be met
+4Logical design: looking at the logical relationship among the objects
+5Decision analysis: making a final decision
+
+cite: https://en.wikipedia.org/wiki/Systems_analysis

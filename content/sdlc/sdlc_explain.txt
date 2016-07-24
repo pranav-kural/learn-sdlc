@@ -1,0 +1,24 @@
+Various <abbr title="System Development Life Cycle">SDLC</abbr> methodologies have been developed to guide the processes involved, including:<br>
+
+<ul>
+	<li>waterfall model (which was the original <abbr title="System Development Life Cycle">SDLC</abbr> method)</li>
+	<li>rapid application development (<abbr title="Rapid Application Development">RAD</abbr>)</li>
+	<li>joint application development (<abbr title="Joint Application Development">JAD</abbr>)</li>
+	<li>the fountain model<li>the spiral model<li>build and fix<li>and synchronize-and-stabilize</li>
+</ul>
+<br>
+Frequently, several models are combined into some sort of hybrid methodology. Documentation is crucial regardless of the type of model chosen or devised for any application, and is usually done in parallel with the development process. Some methods work better for specific types of projects, but in the final analysis, the most important factor for the success of a project may be how closely the particular plan was followed.<br>
+
+In general, an <abbr title="System Development Life Cycle">SDLC</abbr> methodology follows the following steps:<br>
+
+<ol>
+	<li> The existing system is evaluated. Deficiencies are identified. This can be done by interviewing users of the system and 	consulting with support personnel.</li>
+	<li> The new system requirements are defined. In particular, the deficiencies in the existing system must be addressed with 	specific proposals for improvement.</li>
+	<li> The proposed system is designed. Plans are laid out concerning the physical construction, hardware, operating systems, 	programming, communications, and security issues.</li>
+	<li> The new system is developed. The new components and programs must be obtained and installed. Users of the system must be 	trained in its use, and all aspects of performance must be tested. If necessary, adjustments must be made at this stage.</li>
+	<li> The system is put into use. This can be done in various ways. The new system can phased in, according to application or 	location, and the old system gradually replaced. In some cases, it may be more cost-effective to shut down the old system and 	implement the new system all at once.</li>
+	<li> Once the new system is up and running for a while, it should be exhaustively evaluated. Maintenance must be kept up 	rigorously at all times. Users of the system should be kept up-to-date concerning the latest modifications and procedures.</li>
+</ol>
+<br>
+
+Time to go to the next step.

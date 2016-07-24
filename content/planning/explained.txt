@@ -1,0 +1,23 @@
+The Planning Phase focuses principally on required project planning work. Proper
+comprehensive project planning is essential to a successful IT project, and incomplete project
+planning and analysis are frequently root causes of project failure. Most project planning is
+conducted as part of the PMBOK Integration Management work, which includes defining the
+processes necessary to identify, define, combine, unify, and coordinate all project activities for
+successful project deployment.
+1.0 OBJECTIVES/GOALS
+Objectives
+Successful completion of the Planning Phase should comprise:
+• Assessment and description of the procurement management strategy
+• Elaboration and refinement of the project scope, schedule, risks, and costs
+• Assessment and description of activities to coordinate all relevant subsidiary plans
+• Definition of procedures for how the project will be executed, monitored, controlled, and
+closed
+• Planning the future course of action
+• Development of the Project Management Plan(s) (PMP)
+• Approval to progress to the Requirements Analysis Phase
+Goals
+The purpose of the Planning Phase is to plan all project processes and activities required to
+ensure project success and to create a comprehensive set of plans, known as the PMP, to manage
+the project from this phase until project termination.
+
+cite: http://doit.maryland.gov/SDLC/Documents/SDLC%20Phase%2003%20Planning%20Phase%20Single%20Custom.pdf

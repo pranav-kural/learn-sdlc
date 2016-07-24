@@ -1,0 +1,174 @@
+<div ng-cloak>
+    <md-content>
+        <md-tabs md-dynamic-height md-border-bottom>
+            <md-tab label="Introduction">
+                <md-content class="md-padding jumbotron">
+                    <section id="intro_planning">
+
+                        <header role="banner">
+
+                            <h2 class="md-display-2 page-header">System Planning</h2>
+
+                        </header>
+                        <article role="article">
+
+                            <p>
+                                <strong>System planning</strong> is done by people who have faith in the future and a vision of the
+                                future adequate to form the basis for planning. System planning has two major outputs
+                                which embody its contributions. These are proposals and design concepts. The proposal is
+                                addressed to the decision-maker. One of its main ingredients consists of a statement of
+                                the objectives of the system. The objectives may be set by the system planner, or they
+                                may be articulated by him as an expression of his understanding of the concensus of
+                                other responsible persons. Design concepts evolving from system planning are based on
+                                the visualized system, and are addressed primarily to the system engineer.
+                            </p>
+
+                        </article>
+                        <footer role="contentinfo">
+
+                            <p>Next we'll take a look at detailed explanation of the Planning.</p>
+
+                        </footer>
+
+                    </section>
+                </md-content>
+            </md-tab>
+            <md-tab label="Explanation">
+                <md-content class="md-padding jumbotron">
+                    <section id="explain_planning">
+
+                        <header role="banner">
+
+                            <h2 class="md-display-2 page-header">A Li'l More on System Planning:</h2>
+
+                        </header>
+                        <article role="article">
+
+                            <p>
+                                The <strong>Planning</strong> Phase focuses principally on required project planning work. Proper
+                                comprehensive project planning is essential to a successful IT project, and incomplete
+                                project
+                                planning and analysis are frequently root causes of project failure. Most project
+                                planning is
+                                conducted as part of the PMBOK Integration Management work, which includes defining the
+                                processes necessary to identify, define, combine, unify, and coordinate all project
+                                activities for
+                                successful project deployment.</p>
+                                <h4 class="page-header" style="font-family: philosopher">Objectives of planning</h4>
+                                <p>Successful completion of the Planning Phase should comprise:</p>
+                                <ul class="list inverted">
+                                    <li><p>1. Assessment and description of the procurement management strategy</p></li>
+                                    <li><p>2. Elaboration and refinement of the project scope, schedule, risks, and costs</p></li>
+                                    <li><p>3. Assessment and description of activities to coordinate all relevant subsidiary plans</p></li>
+                                    <li><p>4. Definition of procedures for how the project will be executed, monitored, controlled,
+                                        and
+                                        closed</p></li>
+                                    <li><p>5. Planning the future course of action</p></li>
+                                    <li><p>6. Development of the Project Management Plan(s) (PMP)</p></li>
+                                    <li><p>7. Approval to progress to the Requirements Analysis Phase</p></li>
+                                </ul>
+
+                                <h4 class="page-header" style="font-family: philosopher">Goals of Planning</h4>
+                            <p>
+                                The purpose of the Planning Phase is to plan all project processes and activities
+                                required to
+                                ensure project success and to create a comprehensive set of plans, known as the PMP, to
+                                manage
+                                the project from this phase until project termination.
+                            </p>
+
+                        </article>
+                        <footer role="contentinfo">
+
+
+                        </footer>
+
+                    </section>
+                </md-content>
+            </md-tab>
+            <md-tab label="Example">
+                <md-content class="md-padding jumbotron">
+                    <section id="example_planning">
+
+                        <header role="banner">
+
+                            <h3 class="md-display-2 page-header">Here are some examples, that show the usage of Planning in real world.</h3>
+
+                        </header>
+                        <article role="article">
+
+                            <div class="container">
+                                <div class="well">
+                                    <img class="ui fluid image" src="http://gc200333253.computerstudi.es/teamNoClue/images/planning/planning_example01.GIF">
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                <div class="well">
+                                    <img class="ui fluid image"
+                                         src="http://gc200333253.computerstudi.es/teamNoClue/images/planning/planning_example02.gif">
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                <div class="well">
+                                    <img class="ui fluid image" src="http://gc200333253.computerstudi.es/teamNoClue/images/planning/planning_example03.gif">
+                                </div>
+                            </div>
+
+                        </article>
+                        <footer role="contentinfo">
+
+                            <!-- fill in with a short summary of the current topic -->
+
+                        </footer>
+
+                    </section>
+                </md-content>
+            </md-tab>
+            <md-tab label="Test it!">
+                <md-content class="md-padding jumbotron">
+                    <section id="test_planning">
+
+                        <header role="banner">
+
+                            <h2 class="md-display-2 page-header">Let's Test what you've learnt</h2>
+
+                        </header>
+                        <article role="article">
+
+                            <iframe src="https://quizlet.com/142681313/flashcards/embed" height="600" width="100%" style="border:0"></iframe>
+
+                        </article>
+                        <footer role="contentinfo">
+
+                            <!-- fill in with a short summary of the current topic -->
+
+                        </footer>
+
+                    </section>
+                </md-content>
+            </md-tab>
+        </md-tabs>
+    </md-content>
+
+
+    <div class="ui inverted segment">
+
+        <div class="ui inverted three item secondary menu">
+
+            <a class="item" ui-sref="{{lastTopicAddr}}" title="{{lastTopic}}">
+                <span class="fa fa-chevron-left"></span>
+            </a>
+
+            <a class="item active"
+               ng-class="{ active: $state.includes('study'), red: $state.includes('study.sdlc'), orange: $state.includes('study.planning'), 'yellow darken-1': $state.includes('study.analysis'), blue: $state.includes('study.design'), green: $state.includes('study.implementation'), teal: $state.includes('study.support') }">
+                System {{topic}}
+            </a>
+
+            <a class="item" ui-sref="{{nextTopicAddr}}" title="{{nextTopic}}">
+                <span class="fa fa-chevron-right"></span>
+            </a>
+        </div>
+    </div>
+</div>

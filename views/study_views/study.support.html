@@ -1,0 +1,185 @@
+<div ng-cloak>
+    <md-content>
+        <md-tabs md-dynamic-height md-border-bottom>
+            <md-tab label="Introduction">
+                <md-content class="md-padding jumbotron">
+                    <section id="intro_support_security">
+
+                        <header role="banner">
+
+                            <h2 class="md-display-2 page-header">System Support & Security</h2>
+
+                        </header>
+                        <article role="article">
+
+                            <p>
+                                <strong>Systems Operation, Support, and Security</strong> is the final phase in the systems development
+                                life cycle. You will support and maintain the system, handle security issues, protect
+                                the integrity of the system and its data, and be alert to any signs of obsolescence. The
+                                deliverable for this phase is an operational system that is properly maintained,
+                                supported, and secured. The systems support and security phase begins when a system
+                                becomes operational and continues until the system reaches the end of its useful life•
+                                After delivering the system, the IT team focuses on support and maintenance tasks
+                            </p>
+
+                        </article>
+                        <footer role="contentinfo">
+
+                            <!-- fill in with a short summary of the current topic -->
+
+                        </footer>
+
+                    </section>
+                </md-content>
+            </md-tab>
+            <md-tab label="Explanation">
+                <md-content class="md-padding jumbotron">
+                    <section id="explain_support_security">
+
+                        <header role="banner">
+
+                            <h2 class="md-display-2 page-header">A li'll More on Support & Security:</h2>
+
+                        </header>
+
+                        <article role="article">
+
+                            <p>
+                                The growing number of instances of breaches in information security in the last few
+                                years has created a compelling case for efforts towards secure electronic systems.
+                                Embedded systems, which will be ubiquitously used to capture, store, manipulate, and
+                                access data of a sensitive nature, pose several unique and interesting security
+                                challenges. Security has been the subject of intensive research in the areas of
+                                cryptography, computing, and networking. However, despite these efforts, security is
+                                often mis-construed by designers as the hardware or software implementation of specific
+                                cryptographic algorithms and security protocols.
+                            </p>
+
+                            <p>
+                                In reality, it is an entirely new metric that designers should consider throughout the
+                                design process, along with other metrics such as cost, performance, and power..This
+                                paper is intended to introduce embedded system designers and design tool developers to
+                                the challenges involved in designing secure embedded systems. We attempt to provide a
+                                unified and holistic view of embedded system security by first analyzing the typical
+                                functional security requirements for embedded systems from an end-user perspective.
+                            </p>
+
+                            <p>
+                                We then identify the implied challenges for embedded system architects, as well as
+                                hardware and software designers (e.g., tamper-resistant embedded system design,
+                                processing requirements for security, impact of security on battery life for
+                                battery-powered systems, etc.). We also survey solution techniques to address these
+                                challenges, drawing from both current practice and emerging research, and identify open
+                                research problems that will require innovations in embedded system architecture and
+                                design methodologies.
+                            </p>
+
+                        </article>
+
+                        <footer role="contentinfo">
+
+                            <!-- fill in with a short summary of the current topic -->
+
+                        </footer>
+                    </section>
+                </md-content>
+            </md-tab>
+            <md-tab label="Example">
+                <md-content class="md-padding jumbotron">
+                    <section id="example_support_security">
+
+                        <header role="banner">
+
+                            <h3 class="md-display-2 page-header">Here are some examples, that show the usage of System Support & Security in real world.</h3>
+
+                        </header>
+                        <article role="article">
+
+                            <div class="container">
+                                <div class="well">
+                                    <img class="ui fluid image" src="http://gc200333253.computerstudi.es/teamNoClue/images/support_and_security/security_example01.png">
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                <div class="well">
+                                    <img class="ui fluid image"
+                                         src="http://gc200333253.computerstudi.es/teamNoClue/images/support_and_security/security_example02.png">
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                <div class="well">
+                                    <img class="ui fluid image" src="http://gc200333253.computerstudi.es/teamNoClue/images/support_and_security/security_example03.jpg">
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                <div class="well">
+                                    <img class="ui fluid image" src="http://gc200333253.computerstudi.es/teamNoClue/images/support_and_security/security_example04.jpg">
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                <div class="well">
+                                    <img class="ui fluid image" src="http://gc200333253.computerstudi.es/teamNoClue/images/support_and_security/security_cover.jpg">
+                                </div>
+                            </div>
+
+                        </article>
+                        <footer role="contentinfo">
+
+                            <!-- fill in with a short summary of the current topic -->
+
+                        </footer>
+
+                    </section>
+                </md-content>
+            </md-tab>
+            <md-tab label="Test it!">
+                <md-content class="md-padding jumbotron">
+                    <section id="test_support_security">
+
+                        <header role="banner">
+
+                            <h2 class="md-display-2 page-header">Let's Test what you've learnt</h2>
+
+                        </header>
+                        <article role="article">
+
+                            <iframe src="https://quizlet.com/142681313/flashcards/embed" height="600" width="100%" style="border:0"></iframe>
+
+                        </article>
+                        <footer role="contentinfo">
+
+                            <p>Well Done! now you're an expert on on SDLC. Gud Luck!</p>
+
+                        </footer>
+
+                    </section>
+                </md-content>
+            </md-tab>
+        </md-tabs>
+    </md-content>
+
+
+
+    <div class="ui inverted segment">
+
+        <div class="ui inverted three item secondary menu">
+
+            <a class="item" ui-sref="{{lastTopicAddr}}" title="{{lastTopic}}">
+                <span class="fa fa-chevron-left"></span>
+            </a>
+
+            <a class="item active"
+               ng-class="{ active: $state.includes('study'), red: $state.includes('study.sdlc'), orange: $state.includes('study.planning'), 'yellow darken-1': $state.includes('study.analysis'), blue: $state.includes('study.design'), green: $state.includes('study.implementation'), teal: $state.includes('study.support') }">
+                System {{topic}}
+            </a>
+
+            <a class="item" ui-sref="{{nextTopicAddr}}" title="{{nextTopic}}">
+                <span class="fa fa-chevron-right"></span>
+            </a>
+        </div>
+    </div>
+</div>

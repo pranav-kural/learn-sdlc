@@ -1,0 +1,100 @@
+<div class="ng-cloack" ng-cloack>
+    <div id="progressBar"
+         ng-class="{ active: $state.includes('study'), red: $state.includes('study.sdlc'), orange: $state.includes('study.planning'), 'yellow darken-1': $state.includes('study.analysis'), blue: $state.includes('study.design'), green: $state.includes('study.implementation'), teal: $state.includes('study.support') }">
+
+    </div>
+    <!-- Study Area nav bar -->
+    <nav id="subNav" role="navigation" class="ui inverted menu"
+         ng-class="{ active: $state.includes('study'), red: $state.includes('study.sdlc'), orange: $state.includes('study.planning'), 'yellow darken-1': $state.includes('study.analysis'), blue: $state.includes('study.design'), green: $state.includes('study.implementation'), teal: $state.includes('study.support') }">
+
+        <a class="red item col-lg-2" ui-sref=".sdlc">SDLC</a>
+
+        <a class="orange item col-lg-2" ui-sref=".planning">Planning</a>
+
+        <a class="yellow darken-1 item col-lg-2" ui-sref=".analysis">Analysis</a>
+
+        <a class="blue  item col-lg-2" ui-sref=".design">Design</a>
+
+        <a class="green item col-lg-2" ui-sref=".implementation">Implementation</a>
+
+        <a class="teal item col-lg-2" ui-sref=".support">Support &
+            Security</a>
+
+    </nav>
+    <div ui-view id="studyAreaView">
+        <div class="jumbotron">
+        <h3 class="page-header">Welcome to the Study Area</h3>
+        <p>
+            To make the learning process more easy and fun, each topic has been divided into following sections:
+        </p>
+
+        <ul id="webInfo" class="collapsible popout" data-collapsible="accordion">
+            <li>
+                <div class="collapsible-header blue-grey white-text active"><span class="h3"><span class="fa fa-info-circle"></span> Introduction</span></div>
+                <div class="collapsible-body white"><p>Gives a brief introduction of the topic along with <strong title="Break down of definition into separate words to explain it more clearly">Definition breakdown</strong> to make the
+                concept more clear.</p></div>
+            </li>
+            <li>
+                <div class="collapsible-header blue-grey white-text"><span class="h3"><span class="fa fa-building-o"></span> Explanation</span></div>
+                <div class="collapsible-body white"><p>This section explains the whole concept with proper and detailed explanation. It make it less
+                boring, more emphasis is placed on using visuals and graphics where ever possible.</p></div>
+            </li>
+            <li>
+                <div class="collapsible-header blue-grey white-text"><span class="h3"><span class="fa fa-star"></span> Example</span></div>
+                <div class="collapsible-body white"><p>Examples makes it easier to understand the real world application of the concept learned. This
+                section contains various examples based on real world usage of <abbr title="System Development Life Cycle">SDLC</abbr></p></div>
+            </li>
+            <li>
+                <div class="collapsible-header blue-grey white-text"><span class="h3"><span class="fa fa-flag-checkered"></span> Test it!</span></div>
+                <div class="collapsible-body white"><p>Testing the knowledge is the best way to with hold it for long term, and it also
+                servers as a measure to check knowledge actually gained. This section uses the Quizzlet.com app, on which user can
+                take quizs, test or play games like Scatters, Flashcards and Space game.</p></div>
+            </li>
+        </ul>
+        <script>
+            $(document).ready(function(){
+                $('.collapsible').collapsible({
+                    accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+                });
+            });
+
+        </script>
+            <br>
+            <footer class="well">
+                <p class="h6">
+                    You can use the navigation bar below or above to navigate through sections. Gud Luck <span class="fa fa-thumbs-up"></span>
+                </p>
+            </footer>
+        </div>
+    </div>
+
+    <div ng-hide="$state.includes('study.sdlc')">
+        <div ng-hide="$state.includes('study.planning')">
+            <div ng-hide="$state.includes('study.analysis')">
+                <div ng-hide="$state.includes('study.design')">
+                    <div ng-hide="$state.includes('study.implementation')">
+                        <div ng-hide="$state.includes('study.support')">
+                            <div class="ui inverted segment">
+
+                                <div class="ui inverted three item secondary menu">
+
+                                    <a class="item" ui-sref="^.home" title="Home">
+                                        <span class="fa fa-chevron-left"></span>
+                                    </a>
+
+                                    <a class="item active purple">
+                                        Study Area
+                                    </a>
+
+                                    <a class="item" ui-sref=".sdlc" title="System Development Life cycle">
+                                        <span class="fa fa-chevron-right"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

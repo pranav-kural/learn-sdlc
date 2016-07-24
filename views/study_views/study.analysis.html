@@ -1,0 +1,178 @@
+<div ng-cloak>
+    <md-content>
+        <md-tabs md-dynamic-height md-border-bottom>
+            <md-tab label="Introduction">
+                <md-content class="md-padding jumbotron">
+                    <section id="intro_analysis">
+
+                        <header role="banner">
+
+                            <h2 class="md-display-2 page-header">System Analysis</h2>
+
+                        </header>
+                        <article role="article">
+
+                            <p>
+                                <strong>Systems Analysis</strong> is the act, process, or profession of studying an activity (as a
+                                procedure, a business, or a physiological function) typically by mathematical means in
+                                order to define its goals or purposes and to discover operations and procedures for
+                                accomplishing them most efficiently.
+                            </p>
+
+                        </article>
+                        <footer role="contentinfo">
+
+                            <p>
+                                It is the process of studying a procedure or business in order to identify its goals and
+                                purposes and create systems and procedures that will achieve them in an efficient
+                                way.
+                            </p>
+
+                        </footer>
+
+                    </section>
+                </md-content>
+            </md-tab>
+            <md-tab label="Explanation">
+                <md-content class="md-padding jumbotron">
+                    <section id="explain_analysis">
+
+                        <header role="banner">
+
+                            <h2 class="md-display-2 page-header">A li'll More on System Analysis:</h2>
+
+                        </header>
+                        <article role="article">
+
+                            <p>
+                                The terms analysis and synthesis stem from Greek, meaning "to take apart" and "to put
+                                together," respectively. These terms are used in many scientific disciplines, from
+                                mathematics and logic to economics and psychology, to denote similar investigative
+                                procedures. Analysis is defined as "the procedure by which we break down an intellectual
+                                or substantial whole into parts," while synthesis means "the procedure by which we
+                                combine separate elements or components in order to form a coherent whole." <br>Systems
+                                analysis researchers apply methodology to the systems involved, forming an overall
+                                picture. System analysis is used in every field where something is developed. Analysis
+                                can also be a series of components that perform organic functions together, such as
+                                system engineering. Systems engineering is an interdisciplinary field of engineering
+                                that focuses on how complex engineering projects should be designed and managed.<br><br>
+
+                                There are a number of different approaches to system analysis. When a computer-based
+                                information system is developed, systems analysis (according to the Waterfall model)
+                                would constitute the following steps:<br>
+
+                                1. The development of a feasibility study: determining whether a project is economically,
+                                socially, technologically and organizationally feasible
+                                2. Fact-finding measures, designed to ascertain the requirements of the system's end-users
+                                (typically involving interviews, questionnaires, or visual observations of work on the
+                                existing system)<br>
+                                3. Gauging how the end-users would operate the system (in terms of general experience in
+                                using computer hardware or software), what the system would be used for and so on.<br><br>
+                                Another view outlines a phased approach to the process. This approach breaks systems
+                                analysis into 5 phases:<br>
+
+                                1. Scope Definition: denoting an instrument for observing, viewing, or examining<br>
+                                2. Problem analysis: analyzing the problem that arises<br>
+                                3. Requirements analysis: determining the conditions that need to be met<br>
+                                4. Logical design: looking at the logical relationship among the objects<br>
+                                5. Decision analysis: making a final decision<br>
+                            </p>
+
+                        </article>
+                        <footer role="contentinfo">
+
+                            <!-- fill in with a short summary of the current topic -->
+
+                        </footer>
+
+                    </section>
+                </md-content>
+            </md-tab>
+            <md-tab label="Example">
+                <md-content class="md-padding jumbotron">
+                    <section id="example_analysis">
+
+                        <header role="banner">
+
+                            <h3 class="md-display-2 page-header">Here are some examples, that show the usage of SDLC in
+                                real world.</h3>
+
+                        </header>
+                        <article role="article">
+
+                            <div class="container">
+                                <div class="well">
+                                    <img class="ui fluid image" src="http://gc200333253.computerstudi.es/teamNoClue/images/analysis/analysis_example01.png">
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                <div class="well">
+                                    <img class="ui fluid image"
+                                         src="http://gc200333253.computerstudi.es/teamNoClue/images/analysis/analysis_example02.jpg">
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                <div class="well">
+                                    <img class="ui fluid image" src="http://gc200333253.computerstudi.es/teamNoClue/images/analysis/analysis_example03.png">
+                                </div>
+                            </div>
+
+                        </article>
+                        <footer role="contentinfo">
+
+                            <!-- fill in with a short summary of the current topic -->
+
+                        </footer>
+
+                    </section>
+                </md-content>
+            </md-tab>
+            <md-tab label="Test it!">
+                <md-content class="md-padding jumbotron">
+                    <section id="test_analysis">
+
+                        <header role="banner">
+
+                            <h1 class="md-display-2 page-header">Now why not Test it!</h1>
+
+                        </header>
+                        <article role="article">
+
+                            <iframe src="https://quizlet.com/142688466/test/embed" height="600" width="100%"
+                                    style="border:0"></iframe>
+
+                        </article>
+                        <footer role="contentinfo">
+
+                            <p>Well done! let's start with the System Design now.</p>
+
+                        </footer>
+
+                    </section>
+                </md-content>
+            </md-tab>
+        </md-tabs>
+    </md-content>
+
+
+    <div class="ui inverted segment">
+
+        <div class="ui inverted three item secondary menu">
+
+            <a class="item" ui-sref="{{lastTopicAddr}}" title="{{lastTopic}}">
+                <span class="fa fa-chevron-left"></span>
+            </a>
+
+            <a class="item active"
+               ng-class="{ active: $state.includes('study'), red: $state.includes('study.sdlc'), orange: $state.includes('study.planning'), 'yellow darken-1': $state.includes('study.analysis'), blue: $state.includes('study.design'), green: $state.includes('study.implementation'), teal: $state.includes('study.support') }">
+                System {{topic}}
+            </a>
+
+            <a class="item" ui-sref="{{nextTopicAddr}}" title="{{nextTopic}}">
+                <span class="fa fa-chevron-right"></span>
+            </a>
+        </div>
+    </div>
+</div>
