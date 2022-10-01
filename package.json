@@ -1,0 +1,27 @@
+{
+  "name": "learn-sdlc",
+  "version": "1.0.0",
+  "description": "A platform to learn SDLC",
+  "main": "app.js",
+  "dependencies": {
+    "angular-aria": "^1.5.6",
+    "angular-material": "^1.1.0-rc.5",
+    "angular-ui-router": "^0.3.1",
+    "angular-animate": "^1.5.6",
+    "materialize-css": "^0.97.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranav-kural/learn-sdlc.git"
+  },
+  "author": "Pranav Kural",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranav-kural/learn-sdlc/issues"
+  },
+  "homepage": "https://github.com/pranav-kural/learn-sdlc#readme"
+}
